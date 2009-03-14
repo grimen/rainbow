@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+# The command line rainbow MD5 lookup.
+ 
+$LOAD_PATH.unshift File.join(File.dirname(__FILE__), '..', 'lib')
+require 'rainbow'
+ 
+rainbow = Rainbow.new
+result = rainbow.lookup(ARGV.first)
+result = '(No solution)' if result.blank?
+puts "Result: %s" % result
