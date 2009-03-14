@@ -3,7 +3,7 @@ require 'rake/testtask'
 require 'rake/rdoctask'
 
 GEM = "rainbow"
-SUMMARY = %Q{An efficient MD5 hash lookup based on one of the biggest rainbow lookup tables available.}
+SUMMARY = %Q{MD5 hash lookup using on one of the biggest rainbow lookup tables available.}
 HOMEPAGE = "http://github.com/grimen/#{GEM}/tree/master"
 AUTHOR = "Jonas Grimfelt"
 EMAIL = "grimen@gmail.com"

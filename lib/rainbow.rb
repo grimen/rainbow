@@ -8,7 +8,7 @@ class Rainbow
   # Example:
   #   
   #   rainbow = Rainbow.new
-  #   puts rainbow.lookup('9c5ddd54107734f7d18335a5245c286c')
+  #   puts rainbow.lookup('3858f62230ac3c915f300c664312c63f')
   #
   def lookup(md5_hash, options = {})
     options[:method] = :remote # default, only option supported at this point

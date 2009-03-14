@@ -1,0 +1,36 @@
+h1. Rainbow
+
+MD5 hash lookup using on one of the biggest rainbow lookup tables available.
+
+h2. Requirements
+
+* scrubyt (gem)
+* nokogiri (gem)
+* Internet connection =)
+
+h2. Installation
+
+<pre><code>
+sudo gem install grimen-rainbow
+</code></pre>
+
+h2. Examples
+
+h3. Terminal
+
+<pre><code>
+$ rainbow 3858f62230ac3c915f300c664312c63f
+Result: foobar
+</code></pre>
+
+h3. In you app
+
+<pre><code>
+rainbow = Rainbow.new
+result = rainbow.lookup('3858f62230ac3c915f300c664312c63f') # => 'foobar'
+</code></pre>
+
+h2. TODO
+
+* Tests
+* Local lookup (only remote lookup available this point)
